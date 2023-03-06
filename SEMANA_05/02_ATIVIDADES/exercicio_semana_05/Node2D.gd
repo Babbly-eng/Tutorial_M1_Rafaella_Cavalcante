@@ -8,8 +8,7 @@ var valor = 0
 var numero = 0
 # "lista" não estava declara como variável
 var lista = []
-
-var text
+# variável de nome não estava declarada
 var nome
 
 func _on_Button_pressed():
@@ -38,10 +37,11 @@ func _on_Button2_pressed():
 func _on_Button3_pressed():
 	#Mudando o nome do usuário de acordo com os dados da lista
 	#Se houver algum número ímpar o nome deve adicionar "baldo" ao final
+	# as variáveis "i" e "cont" precisaram ser declaradas antes do comando
 	var i = 0
 	var cont = 0
+	# dei uma condição para que a lista tenha um fim
 	while(len(lista) > i):
-		# declarei as variáveis
 		if(lista[i]%2==1):
 			cont += 1
 		i += 1
