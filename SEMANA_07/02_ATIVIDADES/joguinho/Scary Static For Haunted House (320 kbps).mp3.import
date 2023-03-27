@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Scary Static For Haunted House (320 kbps).mp3-77a80400bf5c166cb8e240238b0b45ba.mp3str"
+
+[deps]
+
+source_file="res://Scary Static For Haunted House (320 kbps).mp3"
+dest_files=[ "res://.import/Scary Static For Haunted House (320 kbps).mp3-77a80400bf5c166cb8e240238b0b45ba.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

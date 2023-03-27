@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/SCARY SCREAM (320 kbps).mp3-3ebea08677cf4658c63fbbdc480436d9.mp3str"
+
+[deps]
+
+source_file="res://SCARY SCREAM (320 kbps).mp3"
+dest_files=[ "res://.import/SCARY SCREAM (320 kbps).mp3-3ebea08677cf4658c63fbbdc480436d9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Horror Sound - Sound Effect (VERY SCARY) (320 kbps).mp3-c4321bc7920f80e70c9b5f1a52a78197.mp3str"
+
+[deps]
+
+source_file="res://Horror Sound - Sound Effect (VERY SCARY) (320 kbps).mp3"
+dest_files=[ "res://.import/Horror Sound - Sound Effect (VERY SCARY) (320 kbps).mp3-c4321bc7920f80e70c9b5f1a52a78197.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

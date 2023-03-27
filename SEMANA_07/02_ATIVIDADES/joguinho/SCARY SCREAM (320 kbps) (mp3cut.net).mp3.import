@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/SCARY SCREAM (320 kbps) (mp3cut.net).mp3-11c5e87d8d4d8e06b87a587cc41cb30d.mp3str"
+
+[deps]
+
+source_file="res://SCARY SCREAM (320 kbps) (mp3cut.net).mp3"
+dest_files=[ "res://.import/SCARY SCREAM (320 kbps) (mp3cut.net).mp3-11c5e87d8d4d8e06b87a587cc41cb30d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

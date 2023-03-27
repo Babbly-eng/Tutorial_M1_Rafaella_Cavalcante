@@ -1,0 +1,239 @@
+[gd_scene load_steps=56 format=2]
+
+[ext_resource path="res://bloggif_frames_gif/frame-43.png" type="Texture" id=1]
+[ext_resource path="res://Camera Roll/tv.png" type="Texture" id=2]
+[ext_resource path="res://Camera Roll/tela.png" type="Texture" id=3]
+[ext_resource path="res://tv.gd" type="Script" id=4]
+[ext_resource path="res://bloggif_frames_gif/frame-44.png" type="Texture" id=5]
+[ext_resource path="res://bloggif_frames_gif/frame-41.png" type="Texture" id=6]
+[ext_resource path="res://bloggif_frames_gif/frame-47.png" type="Texture" id=7]
+[ext_resource path="res://bloggif_frames_gif/frame-46.png" type="Texture" id=8]
+[ext_resource path="res://bloggif_frames_gif/frame-49.png" type="Texture" id=9]
+[ext_resource path="res://bloggif_frames_gif/frame-45.png" type="Texture" id=10]
+[ext_resource path="res://bloggif_frames_gif/frame-42.png" type="Texture" id=11]
+[ext_resource path="res://bloggif_frames_gif/frame-48.png" type="Texture" id=12]
+[ext_resource path="res://bloggif_frames_gif/frame-22.png" type="Texture" id=13]
+[ext_resource path="res://bloggif_frames_gif/frame-23.png" type="Texture" id=14]
+[ext_resource path="res://bloggif_frames_gif/frame-16.png" type="Texture" id=15]
+[ext_resource path="res://bloggif_frames_gif/frame-08.png" type="Texture" id=16]
+[ext_resource path="res://bloggif_frames_gif/frame-07.png" type="Texture" id=17]
+[ext_resource path="res://bloggif_frames_gif/frame-18.png" type="Texture" id=18]
+[ext_resource path="res://bloggif_frames_gif/frame-10.png" type="Texture" id=19]
+[ext_resource path="res://bloggif_frames_gif/frame-09.png" type="Texture" id=20]
+[ext_resource path="res://bloggif_frames_gif/frame-13.png" type="Texture" id=21]
+[ext_resource path="res://bloggif_frames_gif/frame-14.png" type="Texture" id=22]
+[ext_resource path="res://bloggif_frames_gif/frame-15.png" type="Texture" id=23]
+[ext_resource path="res://bloggif_frames_gif/frame-19.png" type="Texture" id=24]
+[ext_resource path="res://bloggif_frames_gif/frame-11.png" type="Texture" id=25]
+[ext_resource path="res://bloggif_frames_gif/frame-17.png" type="Texture" id=26]
+[ext_resource path="res://bloggif_frames_gif/frame-12.png" type="Texture" id=27]
+[ext_resource path="res://bloggif_frames_gif/frame-20.png" type="Texture" id=28]
+[ext_resource path="res://bloggif_frames_gif/frame-21.png" type="Texture" id=29]
+[ext_resource path="res://bloggif_frames_gif/frame-06.png" type="Texture" id=30]
+[ext_resource path="res://bloggif_frames_gif/frame-02.png" type="Texture" id=31]
+[ext_resource path="res://bloggif_frames_gif/frame-03.png" type="Texture" id=32]
+[ext_resource path="res://bloggif_frames_gif/frame-04.png" type="Texture" id=33]
+[ext_resource path="res://bloggif_frames_gif/frame-05.png" type="Texture" id=34]
+[ext_resource path="res://bloggif_frames_gif/frame-01.png" type="Texture" id=35]
+[ext_resource path="res://bloggif_frames_gif/frame-30.png" type="Texture" id=36]
+[ext_resource path="res://bloggif_frames_gif/frame-31.png" type="Texture" id=37]
+[ext_resource path="res://bloggif_frames_gif/frame-34.png" type="Texture" id=38]
+[ext_resource path="res://bloggif_frames_gif/frame-35.png" type="Texture" id=39]
+[ext_resource path="res://bloggif_frames_gif/frame-26.png" type="Texture" id=40]
+[ext_resource path="res://bloggif_frames_gif/frame-33.png" type="Texture" id=41]
+[ext_resource path="res://bloggif_frames_gif/frame-24.png" type="Texture" id=42]
+[ext_resource path="res://bloggif_frames_gif/frame-29.png" type="Texture" id=43]
+[ext_resource path="res://bloggif_frames_gif/frame-32.png" type="Texture" id=44]
+[ext_resource path="res://bloggif_frames_gif/frame-28.png" type="Texture" id=45]
+[ext_resource path="res://bloggif_frames_gif/frame-36.png" type="Texture" id=46]
+[ext_resource path="res://bloggif_frames_gif/frame-37.png" type="Texture" id=47]
+[ext_resource path="res://bloggif_frames_gif/frame-27.png" type="Texture" id=48]
+[ext_resource path="res://bloggif_frames_gif/frame-38.png" type="Texture" id=49]
+[ext_resource path="res://bloggif_frames_gif/frame-25.png" type="Texture" id=50]
+[ext_resource path="res://bloggif_frames_gif/frame-39.png" type="Texture" id=51]
+[ext_resource path="res://bloggif_frames_gif/frame-40.png" type="Texture" id=52]
+[ext_resource path="res://Camera Roll/fundo.png" type="Texture" id=53]
+[ext_resource path="res://Scary Static For Haunted House (320 kbps).mp3" type="AudioStream" id=54]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 32 ), ExtResource( 31 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 30 ), ExtResource( 30 ), ExtResource( 22 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 35 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 13 ), ExtResource( 29 ), ExtResource( 27 ), ExtResource( 23 ), ExtResource( 15 ), ExtResource( 26 ), ExtResource( 18 ), ExtResource( 24 ), ExtResource( 45 ), ExtResource( 28 ), ExtResource( 14 ), ExtResource( 42 ), ExtResource( 50 ), ExtResource( 40 ), ExtResource( 39 ), ExtResource( 48 ), ExtResource( 43 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 44 ), ExtResource( 41 ), ExtResource( 11 ), ExtResource( 38 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 49 ), ExtResource( 8 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 9 ), ExtResource( 6 ), ExtResource( 1 ), ExtResource( 5 ), ExtResource( 10 ), ExtResource( 7 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "olhinho",
+"speed": 3.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( -21, -13 )
+script = ExtResource( 4 )
+
+[node name="Fundo" type="Sprite" parent="."]
+position = Vector2( 535, 366 )
+scale = Vector2( 6.44375, 5.16875 )
+texture = ExtResource( 53 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 535.5, 275 )
+scale = Vector2( 1.41009, 0.809211 )
+frames = SubResource( 1 )
+animation = "olhinho"
+frame = 39
+playing = true
+
+[node name="Tv" type="Sprite" parent="."]
+position = Vector2( 560, 337.453 )
+scale = Vector2( 9.925, 7.03184 )
+texture = ExtResource( 2 )
+
+[node name="Tela" type="Sprite" parent="."]
+visible = false
+position = Vector2( 571, 359 )
+scale = Vector2( 10.6906, 7.95469 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 320.0
+margin_top = 311.0
+margin_right = 501.0
+margin_bottom = 359.0
+text = "Olá, jogador...
+É a sua primeira vez aqui?
+"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 322.0
+margin_top = 360.0
+margin_right = 358.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Sim"
+flat = true
+
+[node name="Button2" type="Button" parent="."]
+margin_left = 378.0
+margin_top = 360.0
+margin_right = 415.0
+margin_bottom = 380.0
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Não"
+flat = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 54 )
+autoplay = true
+
+[node name="Label2" type="Label" parent="."]
+visible = false
+margin_left = 312.0
+margin_top = 392.0
+margin_right = 544.0
+margin_bottom = 432.0
+text = "Então eu posso dizer que é um prazer conhece-lo..."
+
+[node name="Label3" type="Label" parent="."]
+visible = false
+margin_left = 312.0
+margin_top = 392.0
+margin_right = 641.0
+margin_bottom = 432.0
+text = "Então eu posso dizer que é um prazer revê-lo..."
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="Timer2" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="Button3" type="Button" parent="."]
+visible = false
+margin_left = 322.0
+margin_top = 360.0
+margin_right = 358.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Sim"
+flat = true
+
+[node name="Button4" type="Button" parent="."]
+visible = false
+margin_left = 378.0
+margin_top = 360.0
+margin_right = 414.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Não"
+flat = true
+
+[node name="Timer3" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="Button5" type="Button" parent="."]
+visible = false
+margin_left = 322.0
+margin_top = 360.0
+margin_right = 358.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Sim"
+flat = true
+
+[node name="Button6" type="Button" parent="."]
+visible = false
+margin_left = 378.0
+margin_top = 360.0
+margin_right = 414.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Não"
+flat = true
+
+[node name="Timer4" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="Button7" type="Button" parent="."]
+visible = false
+margin_left = 322.0
+margin_top = 360.0
+margin_right = 358.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Sim"
+flat = true
+
+[node name="Button8" type="Button" parent="."]
+visible = false
+margin_left = 378.0
+margin_top = 360.0
+margin_right = 414.0
+margin_bottom = 380.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_hover = Color( 1, 0, 0, 1 )
+text = "Não"
+flat = true
+
+[node name="Timer5" type="Timer" parent="."]
+wait_time = 3.0
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="timeout" from="Timer2" to="." method="_on_Timer2_timeout"]
+[connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_Button4_pressed"]
+[connection signal="timeout" from="Timer3" to="." method="_on_Timer3_timeout"]
+[connection signal="pressed" from="Button5" to="." method="_on_Button5_pressed"]
+[connection signal="pressed" from="Button6" to="." method="_on_Button6_pressed"]
+[connection signal="timeout" from="Timer4" to="." method="_on_Timer4_timeout"]
+[connection signal="pressed" from="Button7" to="." method="_on_Button7_pressed"]
+[connection signal="pressed" from="Button8" to="." method="_on_Button8_pressed"]
+[connection signal="timeout" from="Timer5" to="." method="_on_Timer5_timeout"]

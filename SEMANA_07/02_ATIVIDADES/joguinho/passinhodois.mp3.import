@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/passinhodois.mp3-698685bb816919d661d273384bbe70eb.mp3str"
+
+[deps]
+
+source_file="res://passinhodois.mp3"
+dest_files=[ "res://.import/passinhodois.mp3-698685bb816919d661d273384bbe70eb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
